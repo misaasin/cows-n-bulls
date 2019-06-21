@@ -6,11 +6,11 @@ Cows and Bulls is an old code-breaking mind or paper and pencil game for two or 
 The numerical version of the game is usually played with 4 digits, but can also be played with 3 or any other number of digits.
 
 On a sheet or paper, the players each write a 4-digit secret number. The digits must be all different. Then, in turn, the players try to guess their opponent’s number who gives the number of matches. If the matching digits are in their right positions, they are “bulls”, if in different positions, they are “cows”. Example:
-
+```
 Secret number: 4271
 Opponent’s try: 1234
 Answer: 1 bull and 2 cows. (The bull is “2”, the cows are “4” and “1”.)
-
+```
 ## The Program
 
 The program coded isn’t the full game. Instead it’s more like a player, where it holds the secret number and gives out the clues while the user of the program tries to guess the number.
